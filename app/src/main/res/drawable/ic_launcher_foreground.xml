@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized Background Ripple Shadow in Icon Center -->
+    <path
+        android:pathData="M54,54m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0"
+        android:fillColor="#1500E5FF" />
+
+    <!-- Download Pipeline Bucket (Bottom) -->
+    <path
+        android:pathData="M32,64 L32,76 L76,76 L76,64"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#9D4EDD" />
+
+    <!-- Download Streaming Down-Arrow with Neon Cyan-to-Purple Gradient -->
+    <path
+        android:pathData="M54,24 L54,62 M38,46 L54,62 L70,46"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="62"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#9D4EDD" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
